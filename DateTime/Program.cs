@@ -11,10 +11,8 @@ namespace DateTimeExercise
         static void Main(string[] args)
         {
             DateTime myDate = DateTime.Now;
-            Console.WriteLine(myDate.ToShortTimeString());
-            Console.WriteLine(myDate.ToShortDateString());
-            Console.WriteLine(myDate.ToLongDateString());
-            Console.WriteLine(myDate.ToLongTimeString());
+            string formattedDate = string.Format("Date is {0:yyyy MMMM dddd}",myDate); // "{0}" = this is a placeholder 
+            Console.WriteLine(formattedDate);
         }
     }
 }
