@@ -11,7 +11,7 @@ namespace DateTimeExercise
         static void Main(string[] args)
         {
             DateTime myDate = DateTime.Now;
-            Console.WriteLine(myDate.ToShortDateString());
+            Console.WriteLine(myDate.ToShortTimeString());
         }
     }
 }
