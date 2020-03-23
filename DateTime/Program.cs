@@ -10,6 +10,8 @@ namespace DateTime
     {
         static void Main(string[] args)
         {
+            DateTimeOffset myDate = new DateTimeOffset();
+            Console.WriteLine(myDate);
         }
     }
 }
