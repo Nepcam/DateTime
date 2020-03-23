@@ -12,6 +12,9 @@ namespace DateTimeExercise
         {
             DateTime myDate = DateTime.Now;
             Console.WriteLine(myDate.ToShortTimeString());
+            Console.WriteLine(myDate.ToShortDateString());
+            Console.WriteLine(myDate.ToLongDateString());
+            Console.WriteLine(myDate.ToLongTimeString());
         }
     }
 }
