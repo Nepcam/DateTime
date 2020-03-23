@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DateTime
+namespace DateTimeExercise
 {
     class Program
     {
         static void Main(string[] args)
         {
-            DateTimeOffset myDate = new DateTimeOffset();
+            DateTime myDate = new DateTime();
             Console.WriteLine(myDate);
         }
     }
